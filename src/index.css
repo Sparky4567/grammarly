@@ -1,3 +1,12 @@
 body {
   background-color: #333;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+textarea:hover {
+  cursor: pointer;
 }
